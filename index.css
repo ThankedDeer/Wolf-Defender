@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+.header{
+ height: 20px;
+ background-color: black;
+}
+.footer{
+    height: 20px;
+    width: 100%;
+    position: fixed;
+    background-color:black;
+    bottom:0px;
+   }
+
+.reportar{
+   
+   width: 40vh;
+   height: 40vh;
+   border-radius: 50%;
+   border: 10px solid black;
+   background-color: red;
+   color: white;
+   font-size: 2.3em;
+   font-weight:bold;
+   
+   box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+
+    
+}
+.contenedorBtn{
+    width: 100%;
+    height:400px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alertaText{
+    font-size: small;
+}
