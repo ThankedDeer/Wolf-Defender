@@ -1,7 +1,7 @@
 {
-    "name": "nombre pendiente",
-    "short_name": "#nombre pendiente",
-    "description": "pendiente",
+    "name": "Defensores de tu seguridad",
+    "short_name": "Defensores de tu seguridad",
+    "description": "App para reportas intentos de secuestros o extorcion",
     "background_color": "#2B2B2B",
     "theme_color": "#F0DB4F",
     "orientation": "portrait",
