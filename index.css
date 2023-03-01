@@ -40,7 +40,50 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    text-decoration: none;
+}  
 .alertaText{
     font-size: small;
+}
+
+.reporte{
+  
+    border-radius: 50%;
+}
+.enviar{
+    border-radius: 5px;
+    width: 30px;
+    height: 20px;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+.cancelar{
+   text-decoration: none;
+   position: relative;
+   bottom: 5.3rem;
+   left: 20vh;
+}
+.frase{
+    font-size: 1.5em;
+    text-align: center;
+    color: red;
+    padding-top: 1em;
+}
+.listaContenedor{
+    background-color: rgb(230, 230, 230);
+}
+
+.lista{
+    font-size: .7em;
+  text-align:justify ;
+  padding: 30px;
+  margin: 0px;
+   
+}
+.listaTitulo{
+    text-align: center;
+    padding-top: 1em;
+    margin: 0px;
 }
