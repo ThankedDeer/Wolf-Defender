@@ -36,7 +36,7 @@
         <div class="mb-3">
           <label class="form-label">Teléfono</label>
           <input
-            type="text"
+            type="number"
             class="form-control"
             id="telefono"
             placeholder="Ingresa un telefono diferente"
@@ -44,7 +44,7 @@
         </div>
         <div class="mb-3">
           <label class="form-label">Teléfono del atacante </label>
-          <input type="text" class="form-control" id="telefonoAtacante" />
+          <input type="number" class="form-control" id="telefonoAtacante" />
         </div>
         <div class="mb-3">
           <label class="form-label">Descripción</label>
@@ -110,8 +110,8 @@
 
     const nombre = document.getElementById("nombre").value;
     const apellido = document.getElementById("apellidos").value;
-    const telefono = document.getElementById("telefono").value;
-    const telefonoAtacante = document.getElementById("telefonoAtacante").value;
+    const telefono = toString(document.getElementById("telefono").value);
+    const telefonoAtacante = toString(document.getElementById("telefonoAtacante").value);
     const descripcion = document.getElementById("descripcion").value;
 
     var c = {
