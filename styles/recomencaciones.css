@@ -1,0 +1,68 @@
+.reporteEnviado{
+    max-width: 35%;
+    max-height: 35%;
+   padding-top: 20px; 
+   padding-bottom: px;
+}
+
+
+.contenedor{
+    text-align: center;
+   color: #000000;
+   
+  
+}
+
+.lista{
+    font-size: .7em;
+  text-align:justify ;
+  padding: 30px;
+  margin: 0px;
+   
+}
+.listaContenedor{
+    background-color: #e8f1ff;
+}
+.home{
+    
+    
+    width: 80px;
+}
+.homeContenedor{
+    
+    margin-bottom: 60px;
+    justify-content: center;
+    width: 80px;
+    
+    
+
+}
+
+
+.container{
+   display: block;
+   justify-content: center;
+   
+}
+
+.lalo{
+   
+    text-align: center; /* Centra el contenido */
+}
+    
+.image-title{
+    font-weight: bold
+}
+.momento{
+
+    color: #0d6efd;
+    max-width: 80%;
+    
+}
+.momentoContenedor{
+    display: flex;
+    justify-content: center;
+}
+#recomencaciones{
+    margin-top: 30px;
+}
