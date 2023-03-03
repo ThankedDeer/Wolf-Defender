@@ -5,7 +5,7 @@ const CACHE_NAME = 'attackWolf',
     './index.css',
     './script.js',
     './img/L0B0_1-removebg-preview(1).png',
-    './styles.css/recomendaciones.css',
+    './recomendaciones.css',
     './registro.css'
   ]
 
